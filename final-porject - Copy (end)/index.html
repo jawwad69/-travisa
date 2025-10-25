@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- this is css code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="asseds/java-script/script.js"></script> <!-- this is js link -->
+    <!-- icons links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- slide-in  slide-out links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <!-- this is cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="head">
+        <div class="hea1">
+            <h3>
+                <i class="fa-solid fa-envelope"></i>
+                Example@gmail.com
+                &nbsp;
+
+                <i class="fa-solid fa-phone"></i>
+                +01234567890
+            </h3>
+        </div>
+        <div class="hea2">
+            <h3>
+                <i class="fa-brands fa-twitter"></i> &nbsp;
+                <i class="fa-brands fa-facebook-f"></i> &nbsp;
+                <i class="fa-brands fa-linkedin-in"></i> &nbsp;
+                <i class="fa-brands fa-instagram"></i> &nbsp;
+                <i class="fa-brands fa-youtube"></i> &nbsp;
+            </h3>
+        </div>
+        <div class="hea3">
+
+        </div>
+        <h3>Help &nbsp;/ &nbsp;
+            Support &nbsp;/ &nbsp;
+            contect</h3>
+    </div>
+    <!-- this is header -->
+
+    <div class="hero">
+        <div class="logo">
+
+            <h1>
+                <img src="asseds/img/brand-logo.png" alt="Brand Logo" style="max-height: 60px; transition: .5s;">
+                Travisa
+
+            </h1>
+        </div>
+
+        <div class="menu">
+            <a href="index.html" id="line" class="active-nav">Home</a>
+            <a href="about.html" id="line">About</a>
+            <a href="services.html" id="line">Servics</a>
+            <a href="" id="dropdown"> </a>
+            <button class="dropbtn" id="line" onclick="toggleDropdown()">Pages ></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#link1">feauter</a>
+                <a href="#link2">Countries</a>
+                <a href="Testimonial.html">Testimonial</a>
+                <a href="#link3">Training</a>
+
+
+            </div>
+
+
+
+            <a href="contect.html" id="line">Content</a>
+
+            <a href="" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            &nbsp;
+            <a href="" id="Get">Get A Quote</a>
+        </div>
+
+    </div>
+    <!-- this is slide -->
+
+    <div class="carousel-header">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active ">
+                    <img src="asseds/img/carousel-1.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="text-center p-4" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp"
+                                data-wow-delay="0.1s">Solution For All Type Of Visas</h4>
+                                <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fw-bold fadeInUp"
+                                    data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                    Immigration Process Starts Here!</h1>
+                                <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">Lorem Ipsum
+                                    is
+                                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s,
+                                </p>
+                                <a class="btn btn-danger border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp"
+                                    data-wow-delay="0.7s" href="#">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <img src="asseds/img/carousel-2.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="text-center p-4" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp"
+                                data-wow-delay="0.1s">Solution For All Type Of Visas</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fw-bold fadeInUp"
+                                data-wow-delay="0.3s"
+                                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">Best Visa
+                                Immigrations Services</h1>
+                            <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">Lorem Ipsum is
+                                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                            </p>
+                            <a class="btn btn-danger border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp"
+                                data-wow-delay="0.7s" href="#">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-danger text-white rounded-circle  wow fadeInLeft"
+                    data-wow-delay="0.2s" aria-hidden="false"></span>
+                <span class="visually-hidden-focusable">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-danger text-white rounded-circle wow fadeInRight"
+                    data-wow-delay="0.2s" aria-hidden="false"></span>
+                <span class="visually-hidden-focusable">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- about the conpany -->
+    <div class="about-the-company" >
+        <div class="about">
+            <div class="pic1-2" Data-aos="slide-right">
+                <div class="pic">
+                    <div class="pic1">
+                        <img src="asseds/img/about-2.png" class="" style="margin-bottom: -7px;" alt="Image">
+                    </div>
+
+                    <div class="pic2">
+                        <img src="asseds/img/about-3.jpg" class=""
+                            style="border-top-right-radius: 300px; border-top-left-radius: 300px;" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <div class="text" Data-aos="fade-left" data-aos-duration="1000">
+                <h5>About the company </h5>
+                <h1>We’re Trusted <br> Immigration Consultant <br> Agency.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt architecto <br>
+                    iusto perferendis blanditiis assumenda dignissimos, commodi fuga culpa <br>
+                    explicabo libero sint est mollitia saepe! Sequi asperiores nemo!</p> <br>
+                <div class="row8r">
+                    <div class="best">
+                        <div class="co8">
+                            <i class="fas fa-map-marked-alt fa-3x "></i>
+                            <h5>Best Immigration Resources</h5>
+                        </div>
+                        <div class="co8">
+                            <i class="fas fa-passport fa-3x"></i>
+                            <h5>Return Visas Availabile</h5>
+                        </div>
+                    </div>
+                    <div class="years">
+                        <div class="one1">
+                            <div class="bg1">
+                                <div class="m23">
+                                    <span> <i class="fas fa-ticket-alt fa-4x -primary color "></i></span>
+                                </div>
+                                <h1>34</h1>
+                                <p>Years of <br> Experience</p>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="mb">
+                                <p><i class="fa fa-check-circle "></i> Offer 100 % Genuine Assistance</p>
+                                <p><i class="fa fa-check-circle "></i> It’s Faster &amp; Reliable Execution</p>
+                                <p><i class="fa fa-check-circle "></i> Accurate &amp; Expert Advice</p>
+                            </div>
+
+                            <div class="d">
+                                <div id="phone-tada" class="d">
+                                    <a href="" class="position-relative wow tada" data-wow-delay=".9s"
+                                        style="visibility: visible; animation-delay: 0.9s; animation-name: tada;">
+
+                                        <i class="fa fa-phone-alt  fa-3x"></i>
+                                        <div class="" style="top: 0; left: 25px;">
+                                            <!-- <span><i class="fa fa-comment-dots text-secondary"></i></span> -->
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d">
+                                    <span>Have any questions?</span> <br>
+                                    <span class="text-secondary fw-bold fs-5" style="letter-spacing: 2px;">Free: +0123
+                                        456 7890</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!--  this is Counter Facts  -->
+    <div class="paddimg-top" style="padding-top: 100px;">
+
+    </div>
+    <div class="background">
+        <div class="counter" Data-aos="slide-up" data-aos-duration="1000">
+            <div class="counter-card0">
+                <div class="card-blue">
+                    <div class="swap-boder">
+                        <div class="swap">
+                            <div class="card-swap"><i class="fas fa-passport"
+                                    style="font-size: 50px; color:#e02454;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-white">
+                    <h5>VISA CATEGORIES</h5>
+
+                    <h1 id="count3" style="color: #e02454;"></h1>
+                </div>
+
+            </div>
+
+            <div class="counter-card0">
+                <div class="card-blue">
+                    <div class="swap-boder">
+                        <div class="swap">
+                            <div class="card-swap"><i class="fas fa-users" style="font-size: 50px; color:#e02454;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-white">
+                    <h5>TEAM MEMBERS</h5>
+
+                    <h1 id="count2" style="color: #e02454;"></h1>
+
+                </div>
+
+            </div>
+
+            <div class="counter-card0">
+                <div class="card-blue">
+                    <div class="swap-boder">
+                        <div class="swap">
+                            <div class="card-swap"><i class="fas fa-user-check"
+                                    style="font-size: 50px; color:#e02454;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-white">
+                    <h5>VISA PROCESS</h5>
+                    <h1 id="count1" style="color: #e02454;"></h1>
+                </div>
+
+            </div>
+
+            <div class="counter-card0">
+                <div class="card-blue">
+                    <div class="swap-boder">
+                        <div class="swap">
+                            <div class="card-swap"><i class="fas fa-handshake"
+                                    style="font-size: 50px; color:#e02454;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-white">
+                    <h5>SUCCESS RATES</h5>
+                    <h1 id="count4" style="color: #e02454;"></h1>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- this is Visa Categories -->
+    <div class="visa-categories">
+
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s"
+            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="sub-style">
+                <h5 class="sub-title">VISA CATEGORIES</h5>
+            </div>
+            <h1 class="tital">Enabling Your Immigration <br> Successfully</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam
+                cumque itaque <br>
+                repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!
+            </p>
+        </div>
+        <!-- this is card -->
+         <div class="contanerbode"  Data-aos="slide-up" data-aos-duration="1000">
+
+  <div class="bodey001">
+            <div class = container>
+              <div class = cardjk  >
+                <div class = image>
+                  <img href = "" src =https://themewagon.github.io/Travisa/img/service-1.jpg         >
+                </div>
+                <div class = content>
+                  <h3>Students Visa</h3>
+                  <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface+.</p>
+                </div>
+              </div>    
+            </div>
+        </div>
+
+        <div class="bodey001">
+            <div class = container>
+              <div class = cardjk>
+                <div class = image>
+                  <img href = "" src = https://themewagon.github.io/Travisa/img/service-2.jpg           >
+                </div>
+                <div class = content>
+                  <h3>Residence Visa</h3>
+                  <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface.</p>
+                </div>
+              </div>    
+            </div>
+        </div>
+     
+
+        <div class="bodey001">
+            <div class = container>
+              <div class = cardjk>
+                <div class = image>
+                  <img href = "" src =  	https://themewagon.github.io/Travisa/img/service-3.jpg            >
+                </div>
+                <div class = content>
+                  <h3>Tourist Visa</h3>
+                  <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typefac.</p>
+                </div>
+              </div>    
+            </div>
+        </div>
+     
+    </div>
+     
+    <!-- this is card 2 -->
+
+    <div class="contanerbode"  Data-aos="slide-up" data-aos-duration="1000">
+
+        <div class="bodey001">
+                  <div class = container>
+                    <div class = cardjk  >
+                      <div class = image>
+                        <img href = "" src =https://themewagon.github.io/Travisa/img/service-1.jpg         >
+                      </div>
+                      <div class = content>
+                        <h3>Job Visa</h3>
+                        <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface+.</p>
+                      </div>
+                    </div>    
+                  </div>
+              </div>
+      
+              <div class="bodey001">
+                  <div class = container>
+                    <div class = cardjk>
+                      <div class = image>
+                        <img href = "" src = https://themewagon.github.io/Travisa/img/service-2.jpg           >
+                      </div>
+                      <div class = content>
+                        <h3>Business Visa</h3>
+                        <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface.</p>
+                      </div>
+                    </div>    
+                  </div>
+              </div>
+           
+      
+              <div class="bodey001">
+                  <div class = container>
+                    <div class = cardjk>
+                      <div class = image>
+                        <img href = "" src =  	https://themewagon.github.io/Travisa/img/service-3.jpg            >
+                      </div>
+                      <div class = content>
+                        <h3>Diplometic Visa</h3>
+                        <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typefac.</p>
+                      </div>
+                    </div>    
+                  </div>
+              </div>
+           
+          </div>
+          
+    <!-- this is choce-us -->
+
+    <div class="choce-text">
+        <h4>WHY CHOOSE US</h4>
+        <h1>Offer Tailor Made Services That Our Client Requires</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam
+            cumque itaque
+            repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
+    </div>
+    <div class="contner001" Data-aos="slide-up" data-aos-duration="1000">
+
+
+
+
+        <div class="card001">
+            <div class="card1-body">
+                <div class="card1-icon">
+                    <center>
+                        <div class="card1-icon1">
+                            <i class="fas fa-dollar-sign fa-4x text-primary" style="color: #e02454; "></i>
+                        </div>
+                    </center>
+                </div>
+
+
+                <div class="card1-text">
+                    <h5> Cost-Effective</h5>
+                    <p>Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                    <div class="botton">
+                        <a href="">Read More</a><i class="fas fa-arrow-right ms-2" style="color:#e02454;"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card1-body">
+                <div class="card1-icon">
+                    <center>
+                        <div class="card1-icon2">
+                            <i class="fab fa-cc-visa fa-4x text-primary" style="color: #e02454;"></i>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="card1-text">
+                    <h5> Visa Assistance
+                    </h5>
+                    <p> Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, </p>
+                    <div class="botton">
+                        <a href="">Read More</a><i class="fas fa-arrow-right ms-2" style="color:#e02454;"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card1-body">
+                <div class="card1-icon">
+                    <center>
+                        <div class="card1-icon3">
+                            <i class="fas fa-atlas fa-4x text-primary"></i>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="card1-text">
+                    <h5>Faster Processing</h5>
+                    <p>Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus</p>
+                    <div class="botton">
+                        <a href="">Read More</a><i class="fas fa-arrow-right ms-2" style="color:#e02454;"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card1-body">
+                <div class="card1-icon">
+                    <center>
+                        <div class="card1-icon4">
+                            <i class="fas fa-users fa-4x text-primary"></i>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="card1-text">
+                    <h5>Direct Interviews</h5>
+                    <p>Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                    <div class="botton">
+                        <a href="">Read More</a><i class="fas fa-arrow-right ms-2" style="color:#e02454;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bot-card">
+        <center> <a href="" class="view-more"> More Features</a></center>
+    </div>
+
+
+    <!-- countres we offer -->
+    <div class="choce-text" >
+        <h4>COUNTRIES WE OFFER</h4>
+        <h1>Immigration & visa services following Countries</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam
+            cumque itaque
+            repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
+    </div>
+
+    <div class="contaner-con" Data-aos="slide-up" data-aos-duration="1000">
+        <div class="cards-con">
+
+            <div class="card-menu-con">
+                <div class="img-con">
+                    <center> <img src="asseds/img/brazil.jpg" class="flag" alt=""
+                            style=" width: 90px; height: 90px; border-radius: 100%;">
+                    </center>
+                    <img src="asseds/img/country-1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card-menu-con">
+                <div class="img-con">
+                    <center> <img src="asseds/img/brazil.jpg" class="flag" alt=""
+                            style=" width: 90px; height: 90%; border-radius: 100%;">
+                    </center>
+                    <img src="asseds/img/country-3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card-menu-con">
+                <div class="img-con">
+                    <center> <img src="asseds/img/usa.jpg" class="flag" alt=""
+                            style=" width: 90px; height: 90px; border-radius: 100%;">
+                    </center>
+                    <img src="asseds/img/country-3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card-menu-con">
+                <div class="img-con">
+                    <center> <img src="asseds/img/italy.jpg" class="flag" alt=""
+                            style=" width: 90px; height: 90px; border-radius: 100%;">
+                    </center>
+                    <img src="asseds/img/country-4.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bot-card">
+        <center> <a href="" class="view-more"> More Countery</a></center>
+    </div>
+
+
+           
+        <!-- this is  Testimonial -->
+        <div class="Testimonial-section" >
+            <div class="choce-text">
+                <h4>OUR CLIENTS RIVIEWS</h4>
+                <h1>What Our Clients Say</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi
+                    quibusdam
+                    cumque itaque
+                    repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab?
+                    Repellat!
+                </p>
+            </div>
+
+            <div class="Testimonial"  Data-aos="slide-out" data-aos-duration="1000">
+                <div class="Testimonial-card">
+                    <div class="Testimonial-menu">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim+
+                        ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.
+                        <div class="Testimonial-icon">
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-user">
+                        <img src="asseds/img/testimonial-1.jpg" alt="">
+                        <div class="testimonial-user-text">
+                            <h5>Person Name</h5>
+                            <p>Profession</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Testimonial-card">
+                    <div class="Testimonial-menu">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt.
+                        <div class="Testimonial-icon">
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-user">
+                        <img src="asseds/img/testimonial-2.jpg" alt="">
+                        <div class="testimonial-user-text">
+                            <h5>Person Name</h5>
+                            <p>Profession</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- CHECK OUR TRAINING -->
+        <div class="background-CHECK-OUR-TRAINING" style="background-color: #f0f5fb; padding-top: 50px;">
+            <div class="choce-text">
+                <h4>CHECK OUR TRAINING</h4>
+                <h1>Get the Best Coacing Service Training with Our Travisa</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi
+                    quibusdam
+                    cumque itaque
+                    repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab?
+                    Repellat!
+                </p>
+            </div>
+
+
+            <ul class="cards"  Data-aos="slide-up" data-aos-duration="1000">
+                <li style="width: 306px;">
+                    <a href="#" class="card">
+                        <img decoding="async" src="asseds/img/training-1.jpg" class="card__image" alt="">
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                    <path />
+                                </svg>
+
+                                <div class="card__header-text">
+                                    <h3 class="card__title" style="font-size: 30px;">IELTS Coaching</h3>
+                                    <span class="card__status">1 hour ago</span>
+                                </div>
+                            </div>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores,
+                                blanditiis?</p>
+                            <center> <span class="Read-More">Read More</span> <i class="fas fa-arrow-right ms-2"
+                                    style="color:white"></i> </center>
+                        </div>
+                    </a>
+                </li>
+                <li style="width: 306px;">
+                    <a href="#" class="card">
+                        <img decoding="async" src="asseds/img/training-2.jpg" class="card__image" alt="">
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                    <path />
+                                </svg>
+
+                                <div class="card__header-text">
+                                    <h3 class="card__title" style="font-size: 30px;">TOEFL Coaching</h3>
+                                    <span class="card__status">3 hour ago</span>
+                                </div>
+                            </div>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores,
+                                blanditiis?</p>
+                            <center> <span class="Read-More">Read More</span> <i class="fas fa-arrow-right ms-2"
+                                    style="color:white"></i> </center>
+                        </div>
+                    </a>
+                </li>
+                <li style="width: 306px;">
+                    <a href="#" class="card">
+                        <img decoding="async" src="asseds/img/training-3.jpg" class="card__image" alt="">
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                    <path />
+                                </svg>
+                                <div class="card__header-text">
+                                    <h3 class="card__title" style="font-size: 30px;">PTE Coaching</h3>
+                                    <span class="card__status">1 hour ago</span>
+                                </div>
+                            </div>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores,
+                                blanditiis?</p>
+                            <center> <span class="Read-More">Read More</span><i class="fas fa-arrow-right ms-2"
+                                    style="color:white"></i> </center>
+                        </div>
+                    </a>
+                </li>
+                <li style="width: 306px;">
+                    <a href="#" class="card">
+                        <img decoding="async" src="asseds/img/training-4.jpg" class="card__image" alt="">
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                    <path />
+                                </svg>
+
+                                <div class="card__header-text">
+                                    <h3 class="card__title" style="font-size: 30px;">OET Coaching</h3>
+                                    <span class="card__status">3 hour ago</span>
+                                </div>
+                            </div>
+                            <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores,
+                                blanditiis?</p>
+                            <center> <span class="Read-More">Read More</span> <i class="fas fa-arrow-right ms-2"
+                                    style="color:white"></i></center>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="bot-card">
+                <center> <a href="" class="view-more"> view more</a></center>
+            </div>
+        </div>
+
+
+        <!-- Worlwide Offices -->
+        <div class="background-Worlwide-Offices" style="padding-top: 50px;">
+            <div class="choce-text">
+                <h4>Worlwide Offices </h4>
+                <h1>Explore Our Office Worldwide</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi
+                    quibusdam
+                    cumque itaque
+                    repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab?
+                    Repellat!
+                </p>
+            </div>
+
+            <div class="world-contaner"  Data-aos="slide-up" data-aos-duration="1000">
+
+                <div class="world-card">
+
+                    <div class="card-world-menu">
+                        <img src="asseds/img/office-2.jpg" alt="">
+                        <div class="world-text">
+                            <h3>Australia</h3>
+                            <h4>+123.456.7890</h4>
+                            <a href="">travisa@example.com</a>
+                            <p>123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                        </div>
+                    </div>
+
+                    <div class="world-card">
+                        <div class="card-world-menu">
+                            <img src="asseds/img/office-1.jpg" alt="">
+                            <div class="world-text">
+                                <h3>Canada</h3>
+                                <h4>(012) 0345 6789</h4>
+                                <a href="">travisa@example.com</a>
+                                <p>123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="world-card">
+                        <div class="card-world-menu">
+                            <img src="asseds/img/office-3.jpg" alt="">
+                            <div class="world-text">
+                                <h3>United Kingdom</h3>
+                                <h4>01234.567.890</h4>
+                                <a href="">travisa@example.com</a>
+                                <p>123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="world-card">
+                        <div class="card-world-menu">
+                            <img src="asseds/img/office-4.jpg" alt="">
+                            <div class="world-text">
+                                <h3>Tokyo</h3>
+                                <h4>+123.45.67890</h4>
+                                <a href="">travisa@example.com</a>
+                                <p>123, First Floor, 123 St Roots Terrace, Los Angeles 90010 Unitd States of America.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this is footer -->
+        <div class="footer">
+            <div class="footer-menus">
+                <div class="footer-body">
+                    <div class="footer-Contact-Info">
+                        <h3>Contact Info</h3>
+                        <a href=""> <i class="fa fa-map-marker-alt me-2"></i> &nbsp; 123 Street, New York, USA</a> <br>
+                        <a href=""> <i class="fas fa-envelope me-2"></i> &nbsp; info@example.com</a> <br>
+                        <a href=""> <i class="fas fa-phone me-2"></i> &nbsp; +012 345 67890</a> <br>
+                        <a href=""> <i class="fas fa-print me-2"></i> &nbsp; +012 345 67890</a> <br>
+
+
+                        <div class="d-flex align-items-center " style="padding-top: 20px;">
+                            <i class="fas fa-share fa-2x text-danger me-2"></i>
+                            <a class="btn mx-1 text-white" href="" style="padding-right: 10px;"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn mx-1 text-white" href="" style="padding-right: 10px;"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn mx-1 text-white" href="" style="padding-right: 10px;"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn mx-1 text-white" href="" style="padding-right: 10px;"> <i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-Opening-Time">
+                        <h3>Opening Time</h3>
+                        <span>Mon - Friday</span>
+                        <p>09.00 am to 07.00 pm</p>
+                        <span>Satday:</span>
+                        <p>10.00 am to 05.00 pm</p>
+                        <span>Vacation:</span>
+                        <p>10.00 am to 05.00 pm</p>
+                    </div>
+                    <div class="footer-Our-Services">
+                        <h3>Our Services</h3>
+
+                        <span><i class="fas fa-angle-right me-2"></i> Business</span> <br>
+                        <span><i class="fas fa-angle-right me-2"></i>Evaluation</span> <br>
+                        <span><i class="fas fa-angle-right me-2"></i>Migrate</span> <br>
+                        <span><i class="fas fa-angle-right me-2"></i>Study</span> <br>
+                        <span><i class="fas fa-angle-right me-2"></i> Counselling</span> <br>
+                        <span><i class="fas fa-angle-right me-2"></i> Work / Career</span> <br>
+                    </div>
+
+                    <div class="footer-Newsletter">
+                        <h3>Newsletter</h3>
+                        <p>Dolor amet sit justo amet elitr
+                            clita ipsum elitr est.Lorem
+                            ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="fot-bot-1">
+            <i class="fas fa-copyright text-light me-2"></i>
+            <a href="">Your Site Name</a>
+            <span>, All right reserved.</span>
+        </div>
+        <div class="fot-bot-2">
+            <span>Designed By JAWWAD NAROOI BALOCH Distributed By APEX </span>
+
+        </div>
+
+             </div>
+    
+    
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 300,
+        duration: 2000,
+    });
+</script>
+
+</html>
